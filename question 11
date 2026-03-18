@@ -1,0 +1,13 @@
+# Function
+def final_price(price, discount):
+    return price * (1 - discount / 100)
+
+# Input
+price = float(input("Enter price: "))
+discount = float(input("Enter discount percentage: "))
+
+# Function call
+result = final_price(price, discount)
+
+# Output
+print("Final price after discount =", round(result, 2))
