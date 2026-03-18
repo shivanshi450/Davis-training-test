@@ -1,0 +1,14 @@
+# Function to calculate final price after discount
+def final_bill(price, discount):
+    discount_amount = price * discount / 100
+    return price - discount_amount
+
+# Input
+price = float(input("Enter price: "))
+discount = float(input("Enter discount percentage: "))
+
+# Function call
+result = final_bill(price, discount)
+
+# Output
+print("Final price after discount =", result)
