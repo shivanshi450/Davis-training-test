@@ -1,0 +1,5 @@
+N = int(input("Enter N: "))
+
+even_numbers = list(range(2, N + 1, 2))
+
+print("Even numbers list:", even_numbers)
