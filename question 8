@@ -1,0 +1,16 @@
+# Input
+units = int(input("Enter units consumed: "))
+
+bill = 0
+
+# Calculation using loop
+for i in range(1, units + 1):
+    if i <= 100:
+        bill += 5
+    elif i <= 200:
+        bill += 7
+    else:
+        bill += 10
+
+# Output
+print("Total bill amount =", bill)
