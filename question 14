@@ -1,0 +1,8 @@
+# Input
+N = int(input("Enter a number: "))
+
+# Using list comprehension
+even_numbers = [i for i in range(1, N + 1) if i % 2 == 0]
+
+# Output
+print("Even numbers list:", even_numbers)
