@@ -1,0 +1,12 @@
+# Function to check voting eligibility
+def check_voting_eligibility(age):
+    return "Eligible" if age >= 18 else "Not Eligible"
+
+# Input from user
+age = int(input("Enter age: "))
+
+# Function call
+result = check_voting_eligibility(age)
+
+# Output
+print(result)
