@@ -1,0 +1,14 @@
+# Function to calculate Simple Interest
+def calculate_si(P, R, T):
+    return (P * R * T) / 100
+
+# Input
+P = float(input("Enter Principal (P): "))
+R = float(input("Enter Rate (R): "))
+T = float(input("Enter Time (T): "))
+
+# Function call
+si = calculate_si(P, R, T)
+
+# Output
+print("Simple Interest =", si)
