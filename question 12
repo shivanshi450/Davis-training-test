@@ -1,0 +1,8 @@
+# Input
+age = int(input("Enter your age: "))
+
+# Dictionary-based logic
+result = {True: "Eligible", False: "Not Eligible"}
+
+# Output
+print(result[age >= 18])
