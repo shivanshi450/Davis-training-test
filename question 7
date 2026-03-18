@@ -1,0 +1,12 @@
+# Function to check eligibility
+def is_eligible(age):
+    return age >= 18
+
+# Input
+age = int(input("Enter your age: "))
+
+# Using function result
+if is_eligible(age):
+    print("Eligible")
+else:
+    print("Not Eligible")
