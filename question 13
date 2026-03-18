@@ -1,0 +1,11 @@
+# Input
+units = int(input("Enter units consumed: "))
+
+# Create list of rates per unit
+rates = [5]*100 + [7]*100 + [10]*1000   # enough units covered
+
+# Calculate bill using sum
+bill = sum(rates[:units])
+
+# Output
+print("Total bill amount =", bill)
